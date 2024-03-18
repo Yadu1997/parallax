@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    width: 100%;
+    position: absolute;
+    text-align: right;
+    top: 15px;
+
+}
+nav a{
+    color: rgba(255, 255, 255, 255);
+    text-decoration: none;
+    margin-right: 100px;
+    font-size: 15px;
+    transition: 0.5s ease-in-out;
+    opacity: 0.5;
+}
+nav a:hover, nav a.active{
+    color: green;
+    opacity: 1;
+
+}
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./pexels-valentin-antonucci-841286.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+main h1{
+    font-size: 100px;
+    color: black;
+    mix-blend-mode: overlay;
+}
+.parallax{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./pexels-kaichieh-chan-917510.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.parallax h1{
+    font-size: 100px;
+    color: black;
+    mix-blend-mode: overlay;
+}
+.parallaxOne{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./pexels-david-bartus-610293.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.parallaxOne h1{
+    font-size: 100px;
+    color: black;
+    mix-blend-mode: overlay;
+}
+.parallaxTwo{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./pexels-ajay-donga-2174656.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.parallaxTwo h1{
+    font-size: 100px;
+    color: black;
+    mix-blend-mode: overlay;
+}
